@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		48C256BA15D0C75300BD5391 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48C256B915D0C75300BD5391 /* UIKit.framework */; };
+		48C256BC15D0C75300BD5391 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48C256BB15D0C75300BD5391 /* Foundation.framework */; };
+		48C256BE15D0C75300BD5391 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48C256BD15D0C75300BD5391 /* CoreGraphics.framework */; };
+		48C256C415D0C75300BD5391 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 48C256C215D0C75300BD5391 /* InfoPlist.strings */; };
+		48C256C615D0C75300BD5391 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 48C256C515D0C75300BD5391 /* main.m */; };
+		48C256CA15D0C75300BD5391 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 48C256C915D0C75300BD5391 /* AppDelegate.m */; };
+		48C256CD15D0C75300BD5391 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48C256CB15D0C75300BD5391 /* MainStoryboard.storyboard */; };
+		48C256D015D0C75300BD5391 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48C256CF15D0C75300BD5391 /* ViewController.m */; };
+		48C256D715D0C82A00BD5391 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48C256D615D0C82A00BD5391 /* CoreLocation.framework */; };
+		48C256DA15D126CF00BD5391 /* CoreLocationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48C256D915D126CF00BD5391 /* CoreLocationController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		48C256B515D0C75300BD5391 /* IosRawGps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IosRawGps.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		48C256B915D0C75300BD5391 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		48C256BB15D0C75300BD5391 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		48C256BD15D0C75300BD5391 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		48C256C115D0C75300BD5391 /* IosRawGps-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IosRawGps-Info.plist"; sourceTree = "<group>"; };
+		48C256C315D0C75300BD5391 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		48C256C515D0C75300BD5391 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		48C256C715D0C75300BD5391 /* IosRawGps-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IosRawGps-Prefix.pch"; sourceTree = "<group>"; };
+		48C256C815D0C75300BD5391 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		48C256C915D0C75300BD5391 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		48C256CC15D0C75300BD5391 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		48C256CE15D0C75300BD5391 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		48C256CF15D0C75300BD5391 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		48C256D615D0C82A00BD5391 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		48C256D815D126CF00BD5391 /* CoreLocationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreLocationController.h; sourceTree = "<group>"; };
+		48C256D915D126CF00BD5391 /* CoreLocationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreLocationController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		48C256B215D0C75300BD5391 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48C256D715D0C82A00BD5391 /* CoreLocation.framework in Frameworks */,
+				48C256BA15D0C75300BD5391 /* UIKit.framework in Frameworks */,
+				48C256BC15D0C75300BD5391 /* Foundation.framework in Frameworks */,
+				48C256BE15D0C75300BD5391 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		48C256AA15D0C75200BD5391 = {
+			isa = PBXGroup;
+			children = (
+				48C256BF15D0C75300BD5391 /* IosRawGps */,
+				48C256B815D0C75300BD5391 /* Frameworks */,
+				48C256B615D0C75300BD5391 /* Products */,
+				48C256D815D126CF00BD5391 /* CoreLocationController.h */,
+				48C256D915D126CF00BD5391 /* CoreLocationController.m */,
+			);
+			sourceTree = "<group>";
+		};
+		48C256B615D0C75300BD5391 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				48C256B515D0C75300BD5391 /* IosRawGps.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		48C256B815D0C75300BD5391 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				48C256D615D0C82A00BD5391 /* CoreLocation.framework */,
+				48C256B915D0C75300BD5391 /* UIKit.framework */,
+				48C256BB15D0C75300BD5391 /* Foundation.framework */,
+				48C256BD15D0C75300BD5391 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		48C256BF15D0C75300BD5391 /* IosRawGps */ = {
+			isa = PBXGroup;
+			children = (
+				48C256C815D0C75300BD5391 /* AppDelegate.h */,
+				48C256C915D0C75300BD5391 /* AppDelegate.m */,
+				48C256CB15D0C75300BD5391 /* MainStoryboard.storyboard */,
+				48C256CE15D0C75300BD5391 /* ViewController.h */,
+				48C256CF15D0C75300BD5391 /* ViewController.m */,
+				48C256C015D0C75300BD5391 /* Supporting Files */,
+			);
+			path = IosRawGps;
+			sourceTree = "<group>";
+		};
+		48C256C015D0C75300BD5391 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				48C256C115D0C75300BD5391 /* IosRawGps-Info.plist */,
+				48C256C215D0C75300BD5391 /* InfoPlist.strings */,
+				48C256C515D0C75300BD5391 /* main.m */,
+				48C256C715D0C75300BD5391 /* IosRawGps-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		48C256B415D0C75300BD5391 /* IosRawGps */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48C256D315D0C75300BD5391 /* Build configuration list for PBXNativeTarget "IosRawGps" */;
+			buildPhases = (
+				48C256B115D0C75300BD5391 /* Sources */,
+				48C256B215D0C75300BD5391 /* Frameworks */,
+				48C256B315D0C75300BD5391 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IosRawGps;
+			productName = IosRawGps;
+			productReference = 48C256B515D0C75300BD5391 /* IosRawGps.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		48C256AC15D0C75300BD5391 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = vafeb;
+			};
+			buildConfigurationList = 48C256AF15D0C75300BD5391 /* Build configuration list for PBXProject "IosRawGps" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 48C256AA15D0C75200BD5391;
+			productRefGroup = 48C256B615D0C75300BD5391 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				48C256B415D0C75300BD5391 /* IosRawGps */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		48C256B315D0C75300BD5391 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48C256C415D0C75300BD5391 /* InfoPlist.strings in Resources */,
+				48C256CD15D0C75300BD5391 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		48C256B115D0C75300BD5391 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48C256C615D0C75300BD5391 /* main.m in Sources */,
+				48C256CA15D0C75300BD5391 /* AppDelegate.m in Sources */,
+				48C256D015D0C75300BD5391 /* ViewController.m in Sources */,
+				48C256DA15D126CF00BD5391 /* CoreLocationController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		48C256C215D0C75300BD5391 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48C256C315D0C75300BD5391 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		48C256CB15D0C75300BD5391 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48C256CC15D0C75300BD5391 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		48C256D115D0C75300BD5391 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		48C256D215D0C75300BD5391 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		48C256D415D0C75300BD5391 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IosRawGps/IosRawGps-Prefix.pch";
+				INFOPLIST_FILE = "IosRawGps/IosRawGps-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		48C256D515D0C75300BD5391 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IosRawGps/IosRawGps-Prefix.pch";
+				INFOPLIST_FILE = "IosRawGps/IosRawGps-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		48C256AF15D0C75300BD5391 /* Build configuration list for PBXProject "IosRawGps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48C256D115D0C75300BD5391 /* Debug */,
+				48C256D215D0C75300BD5391 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48C256D315D0C75300BD5391 /* Build configuration list for PBXNativeTarget "IosRawGps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48C256D415D0C75300BD5391 /* Debug */,
+				48C256D515D0C75300BD5391 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 48C256AC15D0C75300BD5391 /* Project object */;
+}
